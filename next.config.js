@@ -3,6 +3,8 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  // basePath: '/products',
 }
+
 
 module.exports = nextConfig
