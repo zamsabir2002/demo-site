@@ -33,8 +33,8 @@ const Cart = ({ cartShow, setCartShow, cart, setCartItem }) => {
 
                 {cart ? cart.map((each) =>
 
-                    <div class="py-3 flex flex-col justify-start items-center bg-slate-800 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-slate-600 border-gray-700 bg-gray-800 hover:bg-slate-600 h-20 mb-2">
-                        <img class="object-scale-down rounded-t-lg md:h-12 md:w-28 md:rounded-none md:rounded-l-lg h-full" src={each.images[0]} alt="" />
+                    <div class="py-3 flex justify-start items-center bg-slate-800 border border-gray-200 rounded-lg shadow flex-row max-w-xl hover:bg-slate-600 border-gray-700 bg-gray-800 hover:bg-slate-600 h-20 mb-2">
+                        <img class="object-scale-down h-12 w-28 rounded-none rounded-l-lg h-full" src={each.images[0]} alt="" />
                         <div class="flex flex-col justify-normal p-4 leading-normal">
                             <h5 class="mt-3 font-bold tracking-tight text-gray-900 text-white">{each.title}</h5>
                             <p class="mb-3 font-normal text-gray-200 text-gray-400">&#36; {each.price}</p>
